@@ -1,0 +1,70 @@
+#  Build directories 
+build*/
+out/
+.build/
+
+#  Conan 2.x generated files 
+# generowane przez CMakeToolchain i CMakeDeps w katalogu build
+conan_toolchain.cmake
+conan_provider.cmake
+CMakePresets.json
+CMakeUserPresets.json
+conanbuild.*
+conanrun.*
+**/generators/
+
+# Conan local cache override (opcjonalne)
+conan_imports_manifest.txt
+
+#  CMake 
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+*.cmake
+!CMakeLists.txt
+
+# compile_commands.json – warto jednak trackowaæ jeœli u¿ywasz clangd
+compile_commands.json
+
+#  Binaries & object files 
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+#  IDE & editors 
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docview
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+#  OS 
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux / macOS
+.DS_Store
+*~
