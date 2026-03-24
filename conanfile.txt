@@ -1,0 +1,7 @@
+[requires]
+replxx/0.0.4
+[generators]
+CMakeDeps
+CMakeToolchain
+[layout]
+cmake_layout
