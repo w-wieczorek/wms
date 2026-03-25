@@ -16,8 +16,8 @@ namespace {
 
 constexpr std::size_t kDataStackSize = 1'048'576;
 constexpr std::size_t kReturnStackSize = 1'048'576;
-constexpr std::size_t kDataMemorySize = 65'536;
-constexpr std::size_t kProgramMemorySize = 65'536;
+constexpr std::size_t kDataMemorySize = 32'768;
+constexpr std::size_t kProgramMemorySize = 32'768;
 
 enum class Mode {
     Compile,

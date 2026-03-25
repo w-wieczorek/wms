@@ -14,8 +14,8 @@ prompt character.
 |----------------|--------------|------------|--------------------------------------------------|
 | Data Stack     | 1 048 576    | 16 bits    | Operand stack used for all arithmetic and logic  |
 | Return Stack   | 1 048 576    | 16 bits    | Stores return addresses during CALL/RET          |
-| Data Memory    | 65 536 cells | 16 bits    | Random-access heap, addressed by LOAD/STORE      |
-| Program Memory | 65 536 cells | 16 bits    | Stores interpreted opcodes and their inline values  |
+| Data Memory    | 32 768 cells | 16 bits    | Random-access heap, addressed by LOAD/STORE      |
+| Program Memory | 32 768 cells | 16 bits    | Stores interpreted opcodes and their inline values  |
 
 All memory cells are 16-bit (`short`), giving a natural word size of 16 bits.
 
